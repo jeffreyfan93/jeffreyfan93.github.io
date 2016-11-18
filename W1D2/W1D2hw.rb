@@ -4,6 +4,7 @@ def sum_to(n)
   n + sum_to(n - 1)
 end
 
+
 # Test Cases
 sum_to(5)  # => returns 15
 sum_to(1)  # => returns 1
